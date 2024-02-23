@@ -1,62 +1,56 @@
-# AngularBlog
-### Criando um blog com Angular - DIO
+# Blog da Marvel utilizando Angular
 
-##
+Bem-vindo ao repositório do Blog da Marvel desenvolvido com Angular! Este projeto é uma aplicação web que utiliza as tecnologias Angular, TypeScript, HTML, CSS e JavaScript para criar um blog dedicado ao universo Marvel. Aqui, você encontrará informações sobre como configurar e executar o projeto localmente.
 
-| Angular    | Ganhando produtividade com Angular               |
-|------------|--------------------------------------------------|
-| Módulo     | Criando um blog com Angular                      |
-| Com        | Felipe Silva Aguiar                              |
-| Bootcamp   | Banco Pan - Desenvolvimento Frontend com Angular |
-| Plataforma | DIO                                              |
+## Pré-requisitos
 
-<br>
+Antes de começar, certifique-se de ter o Angular CLI instalado. Caso ainda não tenha, siga as etapas abaixo:
 
-![Alt text](./src/assets/imageHome.png)
-![Alt text](./src/assets/imageContent.png)
+1. Abra o terminal ou prompt de comando.
+2. Execute o seguinte comando para instalar o Angular CLI globalmente:
 
-<br/>
+```bash
+npm install -g @angular/cli
+```
 
-![Alt text](./src/assets/imageHomeResponse.png)
-![Alt text](./src/assets/imageContentResponse.png)
+## Instalação
 
-##
-### Tecnologias utilizadas:
+Siga os passos abaixo para configurar o projeto em sua máquina local:
 
-<div>
-   <img align="center" alt="diva-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-   <img align="center" alt="diva-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-   <img align="center" alt="diva-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-   <img align="center" alt="diva-Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
-</div>
+1. Clone este repositório para o seu sistema:
 
-##
+```bash
+git clone https://github.com/SEU_USUARIO/nome-do-repositorio.git
+```
 
+2. Navegue até o diretório do projeto:
 
+```bash
+cd nome-do-repositorio
+```
 
+3. Instale as dependências do projeto utilizando o npm:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+```bash
+npm install
+```
 
-## Development server
+## Executando o Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Após instalar as dependências, você pode executar o projeto localmente. Siga as instruções abaixo:
 
-## Code scaffolding
+1. Execute o seguinte comando para iniciar o servidor de desenvolvimento:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+ng serve
+```
 
-## Build
+2. Abra o seu navegador e navegue para [http://localhost:4200/](http://localhost:4200/). A aplicação será carregada automaticamente e qualquer alteração nos arquivos fonte será refletida instantaneamente.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Contribuição
 
-## Running unit tests
+Se você quiser contribuir para este projeto, fique à vontade para fazer um fork do repositório, realizar as alterações desejadas e enviar um pull request. Agradecemos muito as contribuições!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Licença
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
